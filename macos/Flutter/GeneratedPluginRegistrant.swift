@@ -5,8 +5,8 @@
 import FlutterMacOS
 import Foundation
 
-import dialogflow_grpc
+import flutter_tts
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  DialogflowGrpcPlugin.register(with: registry.registrar(forPlugin: "DialogflowGrpcPlugin"))
+  FlutterTtsPlugin.register(with: registry.registrar(forPlugin: "FlutterTtsPlugin"))
 }
